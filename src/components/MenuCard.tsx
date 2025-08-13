@@ -9,7 +9,7 @@ interface MenuCardProps {
 
 export const MenuCard: React.FC<MenuCardProps> = ({ 
   item, 
-  imageUrl = `https://via.placeholder.com/200x200/F5F5DC/8B7355?text=${encodeURIComponent(item.name.slice(0, 15))}` 
+  imageUrl = `https://via.placeholder.com/160x160/F5F5DC/8B7355?text=${encodeURIComponent(item.name.slice(0, 15))}` 
 }) => {
   return (
     <Card className="group overflow-hidden bg-card border-border shadow-menu-card hover:shadow-lg transition-all duration-300 animate-fade-in">

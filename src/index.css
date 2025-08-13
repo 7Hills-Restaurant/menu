@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 35 20% 98%;
+    --background: 36 20% 98%;
     --foreground: 30 15% 15%;
 
     --card: 0 0% 100%;
@@ -15,37 +15,37 @@
     --popover: 0 0% 100%;
     --popover-foreground: 30 15% 15%;
 
-    --primary: 25 30% 25%;
-    --primary-foreground: 35 20% 98%;
+    --primary: 42 45% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 35 15% 95%;
+    --secondary: 36 15% 95%;
     --secondary-foreground: 30 15% 15%;
 
-    --muted: 35 15% 95%;
-    --muted-foreground: 30 8% 55%;
+    --muted: 36 15% 95%;
+    --muted-foreground: 30 8% 50%;
 
-    --accent: 120 25% 85%;
-    --accent-foreground: 25 30% 25%;
+    --accent: 36 20% 90%;
+    --accent-foreground: 30 15% 15%;
 
     --destructive: 0 70% 55%;
-    --destructive-foreground: 35 20% 98%;
+    --destructive-foreground: 36 20% 98%;
 
-    --border: 35 10% 90%;
-    --input: 35 10% 95%;
-    --ring: 25 30% 25%;
+    --border: 36 10% 88%;
+    --input: 36 10% 95%;
+    --ring: 42 45% 55%;
 
-    /* Custom restaurant design tokens */
-    --sage: 120 25% 75%;
-    --sage-foreground: 25 30% 25%;
+    /* Custom restaurant design tokens - Earth tones & muted gold */
+    --sage: 30 8% 65%;
+    --sage-foreground: 0 0% 100%;
     
-    --warm-neutral: 35 15% 92%;
-    --warm-accent: 25 20% 88%;
+    --warm-neutral: 36 15% 92%;
+    --warm-accent: 42 45% 65%;
     
     --veg-indicator: 120 45% 55%;
     --non-veg-indicator: 0 65% 60%;
     
-    --category-bg: 35 20% 96%;
-    --price-text: 25 15% 45%;
+    --category-bg: 36 20% 96%;
+    --price-text: 42 45% 55%;
     
     /* Shadows */
     --shadow-soft: 0 2px 8px -2px hsl(30 15% 15% / 0.08);
