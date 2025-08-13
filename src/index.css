@@ -6,50 +6,51 @@
 
 @layer base {
   :root {
-    --background: 36 20% 98%;
-    --foreground: 30 15% 15%;
+    --background: 220 15% 97%;
+    --foreground: 215 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 30 15% 15%;
+    --card-foreground: 215 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 30 15% 15%;
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 42 45% 55%;
+    --primary: 260 65% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 36 15% 95%;
-    --secondary-foreground: 30 15% 15%;
+    --secondary: 220 10% 93%;
+    --secondary-foreground: 215 25% 15%;
 
-    --muted: 36 15% 95%;
-    --muted-foreground: 30 8% 50%;
+    --muted: 220 10% 93%;
+    --muted-foreground: 215 15% 45%;
 
-    --accent: 36 20% 90%;
-    --accent-foreground: 30 15% 15%;
+    --accent: 280 50% 90%;
+    --accent-foreground: 215 25% 15%;
 
     --destructive: 0 70% 55%;
-    --destructive-foreground: 36 20% 98%;
+    --destructive-foreground: 220 15% 97%;
 
-    --border: 36 10% 88%;
-    --input: 36 10% 95%;
-    --ring: 42 45% 55%;
+    --border: 220 10% 88%;
+    --input: 220 10% 95%;
+    --ring: 260 65% 45%;
 
-    /* Custom restaurant design tokens - Earth tones & muted gold */
-    --sage: 30 8% 65%;
+    /* Custom restaurant design tokens - Modern purple/blue palette */
+    --sage: 215 15% 65%;
     --sage-foreground: 0 0% 100%;
     
-    --warm-neutral: 36 15% 92%;
-    --warm-accent: 42 45% 65%;
+    --warm-neutral: 220 12% 94%;
+    --warm-accent: 260 50% 70%;
     
     --veg-indicator: 120 45% 55%;
     --non-veg-indicator: 0 65% 60%;
     
-    --category-bg: 36 20% 96%;
-    --price-text: 42 45% 55%;
+    --category-bg: 220 15% 96%;
+    --price-text: 260 65% 45%;
     
     /* Shadows */
-    --shadow-soft: 0 2px 8px -2px hsl(30 15% 15% / 0.08);
-    --shadow-menu-card: 0 4px 12px -4px hsl(30 15% 15% / 0.12);
+    --shadow-soft: 0 2px 8px -2px hsl(215 25% 15% / 0.08);
+    --shadow-menu-card: 0 4px 12px -4px hsl(215 25% 15% / 0.12);
+    --shadow-category-card: 0 6px 16px -6px hsl(260 65% 45% / 0.15);
     
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(var(--warm-neutral)));
