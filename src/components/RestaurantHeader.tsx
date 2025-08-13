@@ -3,7 +3,7 @@ import { BookOpen } from 'lucide-react';
 
 export const RestaurantHeader: React.FC = () => {
   return (
-    <header className="bg-gradient-to-br from-background to-warm-neutral py-6 md:py-8 mb-8">
+    <header className="bg-gradient-to-br  from-background to-warm-neutral py-6 md:py-8 mb-8">
       <div className="container mx-auto px-4 text-center">
         <div className="flex justify-center mb-4">
           <div className="p-3 bg-primary rounded-full shadow-lg">
